@@ -1,3 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: darkred;
+  background: beige;
+}
+
+.intro {
+  margin: 1rem;
+}
+
+.intro h1 {
+  margin: 1rem;
+  font-size: 3rem;
+}
+.intro p {
+  margin-left: 1rem;
+  text-align: justify;
+}
+
+.intro img {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+hr {
+  margin: 0 0.5rem;
+}
 .profile-picture {
   width: 300px;
 }
