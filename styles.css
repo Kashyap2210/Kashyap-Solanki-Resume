@@ -5,15 +5,15 @@
 }
 
 body {
-  color: darkred;
-  background: beige;
+  color: rgb(0, 0, 0);
+  background: rgb(244, 244, 239);
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color: rgb(91, 5, 5);
   color: white;
   height: 4rem;
   width: 100%;
@@ -28,7 +28,8 @@ nav .section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 1rem;
+  margin-right: 3rem;
+  font-size: 1.2rem;
 }
 
 nav .section:hover {
@@ -38,6 +39,7 @@ nav .section:hover {
 .resume {
   font-size: 2rem;
   padding: 0 1rem;
+  margin-left: 2rem;
 }
 
 .intro {
