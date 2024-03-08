@@ -11,6 +11,7 @@ body {
 
 .intro {
   margin: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .intro h1 {
@@ -29,6 +30,29 @@ body {
 
 hr {
   margin: 0 0.5rem;
+}
+
+.education {
+  margin: 1rem;
+}
+
+.education h2 {
+  font-size: 2rem;
+}
+
+.education table {
+  margin: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.education th {
+  font-weight: 900;
+  padding: 0.5rem;
+}
+
+.education td {
+  /* font-weight: 900; */
+  padding: 0.5rem;
 }
 .profile-picture {
   width: 300px;
