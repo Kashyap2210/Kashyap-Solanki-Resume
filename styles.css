@@ -87,3 +87,15 @@ hr {
   /* list-style: none; */
   text-align: justify;
 }
+
+.connection {
+  margin: 1rem;
+}
+
+.connection p {
+  margin: 1rem;
+}
+
+.connection h2 {
+  font-size: 2rem;
+}
