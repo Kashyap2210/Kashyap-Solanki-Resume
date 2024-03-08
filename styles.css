@@ -55,3 +55,14 @@ hr {
   /* font-weight: 900; */
   padding: 0.5rem;
 }
+
+.projects ul {
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.projects ul li {
+  margin: 1rem;
+  /* list-style: none; */
+  text-align: justify;
+}
