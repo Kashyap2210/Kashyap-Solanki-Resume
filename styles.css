@@ -11,7 +11,7 @@ body {
 
 .intro {
   margin: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.5Education Sectionrem;
 }
 
 .intro h1 {
@@ -26,6 +26,7 @@ body {
 .intro img {
   border: 1px solid black;
   border-radius: 0.5rem;
+  width: 300px;
 }
 
 hr {
@@ -53,7 +54,4 @@ hr {
 .education td {
   /* font-weight: 900; */
   padding: 0.5rem;
-}
-.profile-picture {
-  width: 300px;
 }
