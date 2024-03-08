@@ -17,6 +17,10 @@ nav {
   color: white;
   height: 4rem;
   width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
 }
 
 nav .section {
@@ -37,8 +41,9 @@ nav .section:hover {
 }
 
 .intro {
-  margin: 1rem;
-  margin-bottom: 1.5Education Sectionrem;
+  margin: 5rem 1rem 1rem 1rem;
+  /* margin: 1rem; */
+  /* margin-bottom: 1.5Education Sectionrem; */
 }
 
 .intro h1 {
