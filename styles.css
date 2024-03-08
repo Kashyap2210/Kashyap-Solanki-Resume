@@ -9,6 +9,33 @@ body {
   background: beige;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  color: white;
+  height: 4rem;
+  width: 100%;
+}
+
+nav .section {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+nav .section:hover {
+  cursor: pointer;
+}
+
+.resume {
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
 .intro {
   margin: 1rem;
   margin-bottom: 1.5Education Sectionrem;
