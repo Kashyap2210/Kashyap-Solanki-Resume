@@ -126,10 +126,20 @@ hr {
   margin: 1rem;
 }
 
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .connection p {
   margin: 1rem;
 }
 
 .connection h2 {
-  font-size: 2rem;
+  text-align: center;
+}
+
+.connection .email-id {
+  cursor: pointer;
 }
