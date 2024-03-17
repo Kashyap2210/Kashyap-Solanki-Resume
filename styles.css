@@ -166,6 +166,28 @@ hr {
   background-color: #8b0000; /* Darker shade of darkred */
 }
 
+.pop-up {
+  position: absolute;
+  /* top: -2.5rem; */
+  left: 11rem;
+  display: none;
+  border: 1px solid black;
+  width: 6rem;
+  height: 1.2rem;
+  font-size: 0.8rem;
+  background-color: rgb(91, 5, 5);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+}
+.pop-up-show {
+  position: relative;
+  bottom: 4.5rem;
+  left: 35%;
+  /* display: none; */
+  display: block;
+}
+
 @media screen and (max-width: 768px) {
   nav {
     display: flex;
@@ -192,6 +214,12 @@ hr {
     text-align: center;
     margin: 0rem;
   }
+  .pop-up {
+    display: none;
+  }
+  .pop-up-show {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -207,6 +235,12 @@ hr {
     margin: 0.5rem;
   }
   .github {
+    display: none;
+  }
+  .pop-up {
+    display: none;
+  }
+  .pop-up-show {
     display: none;
   }
 }
@@ -231,5 +265,11 @@ hr {
   }
   h2 {
     font-size: 1rem;
+  }
+  .pop-up {
+    display: none;
+  }
+  .pop-up-show {
+    display: none;
   }
 }
