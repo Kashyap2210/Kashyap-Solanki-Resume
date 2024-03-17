@@ -143,3 +143,25 @@ hr {
 .connection .email-id {
   cursor: pointer;
 }
+
+.styled-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.styled-button {
+  width: 10rem;
+  height: 2rem;
+  background-color: rgb(91, 5, 5);
+  color: white;
+  border: 1px solid black;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.styled-button:hover {
+  background-color: #8b0000; /* Darker shade of darkred */
+}
