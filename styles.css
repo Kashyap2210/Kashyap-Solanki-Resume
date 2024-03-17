@@ -20,7 +20,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 1000;
+  z-index: 1;
 }
 
 nav .section {
@@ -164,4 +164,72 @@ hr {
 
 .styled-button:hover {
   background-color: #8b0000; /* Darker shade of darkred */
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+  }
+  nav .section {
+    width: 80%;
+    /* margin-top: 0625rem; */
+    padding-top: 0.35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    margin: 0rem;
+    /* margin-bottom: 1rem; */
+    /* margin-right: 1rem; */
+  }
+  .sub-section {
+    margin-left: 0.5rem;
+  }
+  .resume {
+    text-align: center;
+    margin: 0rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  nav .section {
+    display: none;
+  }
+  body {
+    font-size: 0.75rem;
+  }
+  .intro h1,
+  .intro p {
+    text-align: justify;
+    margin: 0.5rem;
+  }
+  .github {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  body {
+    width: 120%;
+  }
+  .intro h1 {
+    font-size: 2rem;
+  }
+  .github {
+    display: none;
+  }
+  .styled-button {
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    width: 8rem;
+  }
+  .profile-picture {
+    width: 150px;
+  }
+  h2 {
+    font-size: 1rem;
+  }
 }
