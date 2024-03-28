@@ -1,5 +1,3 @@
-Skills That I Used In This Project.
-
 - Developed a professional resume utilizing HTML, CSS, and JavaScript technologies.
 - Utilized tables to clearly separate different sections within the resume.
 - Utilized a variety of CSS properties to enhance the visual presentation and layout of the resume, ensuring readability and aesthetics.
